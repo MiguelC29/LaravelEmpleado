@@ -1,0 +1,15 @@
+php artisan migrate -> Migramos los datos a phpmyadmin es decir la bd
+
+php artisan make:model Empleado -mcr -> creamos el modelo de Empleado esto para que cree todo lo necesario como el create edit etc mcr=model,create,resource
+
+php artisan migrate ->cada vez que hagamos un cambio en cuanto al nivel de bases de datos debemos migrar los datos
+
+php artisan route:list -> para ver la lista de rutas
+
+php artisan storage:link->con esto conectamos la ruta del storage ej: "The [C:\xampp\htdocs\sistema\public\storage] link has been connected to [C:\xampp\htdocs\sistema\storage\app/public...."
+
+composer require laravel/ui -> para integrar todo lo que se necesita para la interfaz de nuestro proyecto
+
+php artisan ui bootstrap --auth ->para integrar bootstrap para la autenticacion
+luego de ejecutar el comando anterior debemos ejecutar npm install
+y luego npm run dev
